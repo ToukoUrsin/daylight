@@ -10,4 +10,4 @@ Original source/rules checked September 21 Pacific / September 22 UTC, 2026. Ori
 
 Judging fit: practical student decision, independent scheduling/simulation engine, observable uncertainty and comparison, local privacy, reproducibility. This is a simulation tool, not an automated calendar, personalized AI forecast, validated intervention study or guarantee of academic outcomes.
 
-Remaining actions: supported-browser visual and mobile QA; complete any destination-specific form requirements; record actual app footage; submit and retain the receipt. A repository or registration alone is not an entry.
+Remaining actions: host the recorded film; complete any destination-specific form requirements; submit and retain the receipt. A repository or registration alone is not an entry.

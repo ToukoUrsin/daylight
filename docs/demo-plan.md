@@ -1,6 +1,6 @@
 # Daylight demo plan — actual UI, about 95 seconds
 
-No film is rendered or claimed. Capture the running app at http://127.0.0.1:4328 after the supported browser becomes available. Start with Example week, default seed37/1,600 runs. Show UI interactions continuously where practical; disclose any time compression. All inputs are synthetic.
+Rendered as `media/daylight-demo.mp4` (1:37) from the running app at http://127.0.0.1:4328, in real time with no time compression. Start with Example week, default seed37/1,600 runs. Show UI interactions continuously where practical; disclose any time compression. All inputs are synthetic.
 
 0–12s: “Seventeen hours free. Thirteen and a half hours of work. It looks fine — until one task has to wait for another.” Show the actual current score, 51%, and effort/capacity. Original sun/cream/green design establishes the product.
 
@@ -14,4 +14,4 @@ No film is rendered or claimed. Capture the running app at http://127.0.0.1:4328
 
 78–95s: Open model disclosure. “No account. No calendar access. No AI guessing how productive I am. Just a clear question: which small change gives this week some breathing room?” End on actual dashboard.
 
-Include visible “Synthetic example · simulation, not a guarantee” when numbers dominate. Do not call before/after percentages empirically validated causal effects. Do not show invented notifications, unimplemented integrations or simulated video as real usage. No synthetic voice or film assets generated in this build.
+Include visible “Synthetic example · simulation, not a guarantee” when numbers dominate. Do not call before/after percentages empirically validated causal effects. Do not show invented notifications, unimplemented integrations or simulated video as real usage. Narration uses an ElevenLabs stock synthetic voice. The rendered film states the actual computed values: 96% for the Wednesday work block and no change for starting the problem set earlier.

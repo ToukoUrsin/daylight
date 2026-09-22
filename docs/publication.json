@@ -70,6 +70,6 @@
       "matchesSource": true
     }
   ],
-  "browserQA": "Pending: supported integrated browser unavailable",
-  "submission": "Not submitted; actual video and screenshots pending"
+  "browserQA": "Checked 2026-09-22 in Chromium at 1440x1000 and 390x844; see docs/validation.md",
+  "submission": "Not submitted; demo film and screenshots recorded in media/, film not yet hosted"
 }

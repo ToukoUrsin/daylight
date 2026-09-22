@@ -16,8 +16,8 @@ A plan is a guess. Give it some daylight: simulate your student workload, then f
 - Public source: https://github.com/ToukoUrsin/daylight
 - Technical explanation and run instructions: https://github.com/ToukoUrsin/daylight#readme
 - License: MIT
-- Demo video: not yet recorded or hosted. Do not submit a placeholder.
-- Screenshots: capture the actual app after supported-browser review. None are claimed complete.
+- Demo video: `media/daylight-demo.mp4` (1:37, actual app footage, English captions in `media/daylight-demo.en.srt`). Not yet hosted; upload copy is in `media/YOUTUBE.md`.
+- Screenshots: `media/01-dashboard.png`, `media/02-essay-editor.png`, `media/03-schedule-and-model.png`, captured from the running app.
 
 ## Inspiration
 
@@ -59,7 +59,7 @@ We also kept the limits visible. The schedule is a heuristic, not an optimality 
 
 - A complete editable planning and comparison workflow, with local saving, apply/undo and portable replay files.
 - A concrete result a judge can reproduce: 13.5 likely work hours inside 17 available hours can still leave a fragile deadline chain.
-- Thirteen meaningful engine tests covering determinism, shared samples, timing boundaries, no overbooking, dependency order, input safety and replay integrity.
+- Thirteen meaningful engine tests covering determinism, shared samples, timing boundaries, no overbooking, dependency order, input safety and replay integrity, plus scripted Chromium checks at desktop and phone widths for overflow, labels, dialog focus, apply/undo and replay round-trips.
 - A dependency-free static app with original layout, SVG icon, system fonts, native form controls and explicit model disclosures.
 - Honest uncertainty: no fake AI inference, invented calendar connection, claimed student study or guarantee.
 
@@ -71,7 +71,7 @@ We also learned to separate two kinds of uncertainty. Increasing the number of s
 
 ## What's next for Daylight
 
-The next step is supported-browser visual, mobile and keyboard review, followed by feedback from students using their own plans. That feedback should test whether the explanations and available-hour inputs are understandable before adding more complexity.
+The next step is feedback from students using their own plans, along with checks in Safari, Firefox and on real phones. That feedback should test whether the explanations and available-hour inputs are understandable before adding more complexity.
 
 Future model work could let a user include shared disruption days, compare several transparent scheduling policies, and distinguish optional scope from required work. Those capabilities are future work, not features of this entry.
 
@@ -83,11 +83,11 @@ JavaScript; HTML; CSS; SVG; Node.js standard library; GitHub Pages; Monte Carlo 
 
 Entrant and product direction: Touko Ursin. Original project created September 21, 2026 Pacific for InfinityX Global Hackathon 2K26.
 
-Substantial implementation, interface design, testing, documentation and submission-writing assistance was provided by OpenAI Codex under Touko's direction. All task examples and inputs are synthetic. No source from another campaign entry, private calendar, student record, downloaded artwork or external model API is used. Runtime behavior is deterministic simulation and ordinary application code, not AI inference. The original code and assets are MIT licensed.
+Substantial implementation, interface design, testing, documentation and submission-writing assistance was provided by OpenAI Codex under Touko's direction. Claude (Anthropic, via Claude Code) assisted with browser QA, three layout fixes, the screenshots and the demo film. The film's narration is an ElevenLabs stock synthetic voice. All task examples and inputs are synthetic. No source from another campaign entry, private calendar, student record, downloaded artwork or external model API is used. Runtime behavior is deterministic simulation and ordinary application code, not AI inference. The original code and assets are MIT licensed.
 
 ## Current verification and completion state
 
-Thirteen engine tests pass; the static build and local HTTP checks pass. Public asset verification is recorded in `docs/publication.json`. Browser visual, mobile, keyboard and full UI export/import checks remain pending because the supported integrated browser was unavailable. No video, screenshots or actual InfinityX submission is claimed complete.
+Thirteen engine tests and 43 scripted Chromium checks at 1440×1000 and 390×844 pass. See `docs/validation.md` for what was checked and what was not. The screenshots and demo film are recorded from the actual app. The video is not yet hosted, and the InfinityX entry is not yet submitted.
 
 ## Suggested actual screenshot sequence
 
@@ -95,4 +95,4 @@ Thirteen engine tests pass; the static build and local HTTP checks pass. Public 
 2. Essay task editor and dependency chain. Caption: “Best, likely and worst hours — with prerequisites and an end-of-day deadline.”
 3. Current/changed schedule and open model disclosure. Caption: “Inspect the schedule, assumptions and limits. Export a replay to reproduce the result.”
 
-Capture these from the real functioning app after review; do not use generated software screenshots.
+Captured from the running app as `media/01-dashboard.png`, `media/02-essay-editor.png` and `media/03-schedule-and-model.png`.
