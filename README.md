@@ -6,6 +6,8 @@ Daylight is an uncertainty-aware student workload planner. Give tasks best, like
 
 The original synthetic example has 13.5 likely work hours and 17 available hours. That apparently comfortable total hides deadline pressure: all deadlines are met in **51.25% of 1,600 simulated weeks**. A 30% scope cut to the essay raises that fraction to **93.5%**. These are reproducible simulation results conditional on authored inputs and a scheduling policy, not measured student outcomes, calibrated forecasts or AI inference.
 
+[Open Daylight](https://toukoursin.github.io/daylight/) · [Source](https://github.com/ToukoUrsin/daylight)
+
 ## Run
 
 Requires Node.js 22+; no npm dependencies or API keys.
@@ -17,7 +19,7 @@ npm test
 npm run build
 ```
 
-The production files are in `dist/`. Serve that directory with any static web host. The local server binds to loopback only. No deployment, account, submission or external data connection is included.
+The production files are in `dist/`. Serve that directory with any static web host. The local server binds to loopback only. The public demo uses GitHub Pages. Plans are processed and stored locally in the browser; there is no application backend, account or calendar connection. GitHub receives ordinary page requests when it serves the site.
 
 ## A usable week
 
@@ -49,4 +51,4 @@ Replay schema: `{format:"daylight-replay",version:1,engine:"1.0.0",plan:{version
 
 Original project created September 21, 2026 Pacific, during the InfinityX 2K26 build period. All source, layout, SVG icon and synthetic tasks were created for this entry with substantial OpenAI Codex assistance directed by Touko Ursin. No source from other campaign entries, private calendars, student records, third-party images, fonts or external APIs is used. Runtime has no AI inference. MIT licensed; system fonts. See [rules](docs/rules.md), [demo plan](docs/demo-plan.md), [validation](docs/validation.md) and [credits](CREDITS.md).
 
-Browser visual/mobile/keyboard QA is pending because the supported integrated browser is unavailable. Responsive and accessibility implementations are present but have not been claimed as visually verified. This local build has not been submitted.
+Browser visual/mobile/keyboard QA is pending because the supported integrated browser is unavailable. Responsive and accessibility implementations are present but have not been claimed as visually verified. Public source and a static demo are available. This project has not yet been submitted.
