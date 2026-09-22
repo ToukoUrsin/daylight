@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-09-22T06:05:09.189957+00:00",
+  "repository": "https://github.com/ToukoUrsin/daylight",
+  "site": "https://toukoursin.github.io/daylight/",
+  "sourceCommit": "11cb747e8eda42a67fac1865959e1bb01a95ea00",
+  "method": "Anonymous HTTPS GET, byte comparison against committed source; no browser interaction",
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 9150,
+      "sha256": "982204fc237684ab7d51b3b35d7e000d1c4be25efa0eb0c96d6bbbf3c55c1b9f",
+      "matchesSource": true
+    },
+    {
+      "path": "app.mjs",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "bytes": 16353,
+      "sha256": "c1c724ce6cd9b476614b882ae429d39943fc45de87b09500c694940042202b18",
+      "matchesSource": true
+    },
+    {
+      "path": "engine.mjs",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "bytes": 9010,
+      "sha256": "8195102e6bc94e044762fd919709b98f5dcf631a9012ca9e8a4ea487441c4bfa",
+      "matchesSource": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 16394,
+      "sha256": "cc4a9af64982d36e5f8c42fbc1a681b26e3d55458d84ac5628abd529724525cc",
+      "matchesSource": true
+    },
+    {
+      "path": "sun.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 244,
+      "sha256": "18749945469e8292a945506db00b8583935b2a4be2fb4d4db4cda8a230490699",
+      "matchesSource": true
+    },
+    {
+      "path": "README.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 6081,
+      "sha256": "29cebf0efc2124f53236d9d0f90666c648fad8b81036ff0675e1173eee7a7272",
+      "matchesSource": true
+    },
+    {
+      "path": "LICENSE",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 1068,
+      "sha256": "0990bfde14c32934d1a72e9ba24f79a580dc451ec83f86c9ec39f9374c47e31c",
+      "matchesSource": true
+    },
+    {
+      "path": "docs/SUBMISSION.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 8234,
+      "sha256": "0e3889a189a021c2ef1960249b1db224dc75e70c4b3ed5f65af9a15880f0a2a2",
+      "matchesSource": true
+    }
+  ],
+  "browserQA": "Pending: supported integrated browser unavailable",
+  "submission": "Not submitted; actual video and screenshots pending"
+}
