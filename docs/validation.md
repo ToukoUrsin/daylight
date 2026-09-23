@@ -37,9 +37,9 @@ Visual review of the captured screens found three layout bugs. All are fixed:
 - Other browser engines (Firefox, Safari) and real mobile devices. Only Chromium was checked, at an emulated 390px width.
 - Screen-reader output. Accessible names were checked in the accessibility tree, but no screen reader was run.
 - Reduced-motion rendering.
-- Number and date inputs follow the operating-system locale. On the recording machine they show "4,5" and "21.09.2026".
+- Number and date inputs follow the browser and operating-system locale, so a Finnish-region machine shows "4,5" and "21.09.2026". The media below was captured with Chromium forced to English (US) and shows "4.5" and "09/21/2026".
 
 ## Media
 
-- `media/01-dashboard.png`, `media/02-essay-editor.png`, `media/03-schedule-and-model.png`: captured from the running app at 1440px width.
-- `media/daylight-demo.mp4`: a 1:37 film at 1080p (H.264/AAC). Playwright drives the real app in real time, and the footage is captured with the Chromium screencast. It has no sped-up footage and no staged UI. The recording adds a pointer overlay so viewers can follow the mouse, plus a "synthetic example" caption and an end card. Narration is an ElevenLabs stock synthetic voice, and every number it states is shown by the app on screen. Captions are in `media/daylight-demo.en.srt`.
+- `media/01-dashboard.png`, `media/02-essay-editor.png`, `media/03-schedule-and-model.png`: captured from the running app at 1440px width, in Chromium set to English (US) and Pacific time.
+- `media/daylight-demo.mp4`: a 1:37 film at 1080p (H.264/AAC, 9.3 MB), recorded in Chromium set to English (US) and Pacific time. Playwright drives the real app in real time, and the footage is captured with the Chromium screencast. It has no sped-up footage and no staged UI. The recording adds a pointer overlay so viewers can follow the mouse, plus a "synthetic example" caption and an end card. Narration is an ElevenLabs stock synthetic voice, and every number it states is shown by the app on screen. Captions are in `media/daylight-demo.en.srt`.
